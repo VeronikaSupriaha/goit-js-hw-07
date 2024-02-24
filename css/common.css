@@ -31,9 +31,8 @@ body {
 }
 
 #boxes{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
+  display: inline-flex; 
   background-color: #f6f6fe;
   padding: 32px;
+  gap: 16px
 }
