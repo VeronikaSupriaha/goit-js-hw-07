@@ -1,4 +1,4 @@
-const allItems = document.querySelectorAll('ul > .item');
+const allItems = document.querySelectorAll('#categories > .item');
 console.log(`Number of categories: ${allItems.length}`);
 const categoryNames = document.querySelectorAll('.item > h2');
 categoryNames.forEach(function (categoryName) {
