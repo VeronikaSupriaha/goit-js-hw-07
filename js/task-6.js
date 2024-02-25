@@ -20,7 +20,7 @@ let boxsize = 0;
 let newDiv = 0;
 destroy.addEventListener('click', () => {
   input.value = '';
-  boxes.innerHTML = ' ';
+  boxes.innerHTML = '';
 });
 function createBoxes(amount) {
   boxes.innerHTML = '';
